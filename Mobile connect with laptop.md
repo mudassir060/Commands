@@ -1,10 +1,11 @@
-# You need to connect to your device via adb connect
-adb connect <ip>:<port> 
+# You need to connect to your device via adb connect:
+                                                        adb connect "IP":"PORT"
+
 # First you need to enable tcp mode as below with usb cable connected
 # Plugin USB and execute
 adb tcpip 5555
 # Remove USB Cable and connect to your device via network:
-adb connect <ip>:5555
+adb connect "IP":5555
 # Now you can work with your device via network, enter shell as usual:
 adb shell
 # ⚠ WARNING: *Don't forget to DISCONNECT when you have finished debugging.
