@@ -1,4 +1,4 @@
-# You need to connect to your device via adb connect:
+#### You need to connect to your device via adb connect:
                                                         adb connect "IP":"PORT"
 
 # First you need to enable tcp mode as below with usb cable connected
