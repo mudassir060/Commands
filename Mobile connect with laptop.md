@@ -1,4 +1,4 @@
-# You need to connect to your device via adb connect:
+# You need to connect to your device via adb connect
 adb connect <ip>:<port> 
 # First you need to enable tcp mode as below with usb cable connected
 # Plugin USB and execute
