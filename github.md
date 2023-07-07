@@ -4,6 +4,7 @@ git config --global user.name ""
 
 # create a new repository on the command line
 git init
+
 git add -A
 git status
 git commit -m "first commit"
