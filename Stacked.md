@@ -53,20 +53,7 @@ When you've changed something manually, or added a new model
 
 
 ### Stacked commands:
-  compile    Uses the /templates folder and creates the appropriate template code required for the scaffolding.
-  create     Provides access to the different creation tools we have for stacked.
-  delete     Provides access to the different deletion tools we have for stacked.
-  generate   Generates the code for the stacked application if any changes were made.
-  update     Updates stacked_cli to latest version.
+ stacked compile    Uses the /templates folder and creates the appropriate template code required for the scaffolding.
+ stacked generate   Generates the code for the stacked application if any changes were made.
+ stacked update     Updates stacked_cli to latest version.
 
-  ### create subcommands:
-  app            Creates a Stacked application with all the basics setup.
-  bottom_sheet   Creates a bottom sheet with all associated files and makes necessary code changes for adding a bottom sheet.
-  dialog         Creates a dialog with all associated files and makes necessary code changes for adding a dialog.
-  service        Creates a service with all associated files and makes necessary code changes to include that service.
-  view           Creates a view with all associated files and makes necessary code changes for adding a view.
-  widget         Creates a widget with their model file.
-
-### delete subcommands:
-  service   
-  view      
