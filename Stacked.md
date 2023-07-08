@@ -42,5 +42,6 @@ This command creates all the scaffolding to add a new Dialog into the project:
 
 ### Generate Code
     flutter pub run build_runner build --delete-conflicting-outputs
+    
     stacked generate
 When you've changed something manually, or added a new model
