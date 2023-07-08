@@ -15,6 +15,10 @@ This command creates all the scaffolding to add a new View into the project:
 3-Creates the ViewModel tests file in the test/viewmodel_tests/ folder
 4-Adds the route to the lib/app/app.dart file
 
+### Delete view
+    stacked delete view stripe
+This command deletes a view with all associated files and makes necessary code changes for deleting a view.
+
 ### Creating a new service
     stacked create service stripe
 This command creates all the scaffolding to add a new Service into the project:
@@ -22,6 +26,10 @@ This command creates all the scaffolding to add a new Service into the project:
 1-Creates a new Service file in lib/services/
 2-Creates the unit tests file in test/services/
 3-Registers the Service with your StackedApp
+
+### Delete service
+    stacked delete service stripe
+This command deletes a service with all associated files and makes necessary code changes for deleting a service.
 
 ### Creating a new Bottom Sheet
     stacked create bottom_sheet alert
@@ -61,5 +69,5 @@ When you've changed something manually, or added a new model
   widget         Creates a widget with their model file.
 
 ### delete subcommands:
-  service   Deletes a service with all associated files and makes necessary code changes for deleting a service.
-  view      Deletes a view with all associated files and makes necessary code changes for deleting a view.
+  service   
+  view      
