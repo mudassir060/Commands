@@ -22,7 +22,6 @@ This command deletes a view with all associated files and makes necessary code c
 ### Creating a new service
     stacked create service stripe
 This command creates all the scaffolding to add a new Service into the project:
-
 1-Creates a new Service file in lib/services/
 2-Creates the unit tests file in test/services/
 3-Registers the Service with your StackedApp
