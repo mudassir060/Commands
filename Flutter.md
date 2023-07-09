@@ -29,3 +29,16 @@ To see all the commands, call the help as below.
     flutter --help
 Or
     flutter -h
+## Development Commands
+### Run
+To run your project, just go to root directory of your project and run the code below, and next choose the device where you want to run your project.
+flutter run
+# Install Package
+To install a package use the code below.
+flutter pub add package_name
+Update Packages
+To update all the packages in your project, run the command below.
+flutter pub upgrade
+Build
+To build your app and start using it in production, use that command.
+flutter build target_platform_name --release
