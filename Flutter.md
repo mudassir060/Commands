@@ -1,4 +1,5 @@
-# Flutter
+# Flutter CLI Cheat Sheet
+
 ### Flutter Doctor
 To know your flutter SDK is set up correctly and compatible with platforms, devices and IDE, type this flutter cli command, it gives you a brief description of tools and devices required for flutter development and then you can configure you flutter project.
     flutter doctor
