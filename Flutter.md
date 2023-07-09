@@ -24,3 +24,8 @@ The native platform Android supports two languages Java and Kotlin (default). Th
 
 Select native language in Android platform use parameter:
     flutter create --org=com.navoki --android-language=java my_flutter_commands_app
+### Help
+To see all the commands, call the help as below.
+    flutter --help
+Or
+    flutter -h
