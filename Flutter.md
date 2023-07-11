@@ -8,3 +8,5 @@ To know more about these in details type
 To download and update your flutter SDK current branch. You have to upgrade for each flutter channel, if you switch the channel. Run this flutter command
     flutter upgrade
 ### Flutter Packages Get
+This flutter cli command downloads and includes the package used in the flutter project. If the package is already downloaded, it will use offline package stored in flutter SDK.
+    flutter packages get
