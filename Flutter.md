@@ -16,4 +16,11 @@ Suppose you want to create flutter project name my_flutter_commands_app , by def
 ### New flutter project with custom package name
 Suppose you want to make the package name com.navoki.my_flutter_commands_app , where navoki.com is your organization’s web address. You have to use --org parameter, then cli command would be:
     flutter create --org=com.navoki  my_flutter_commands_app
-    
+### Flutter project with different app name and folder name
+While creating a new project, you can set specific <app-name> that will appear in flutter package name and in applicationID, while the folder name can be different. You have to use --project-name parameter
+    flutter create --org=com.navoki --project-name=navoki my_flutter_commands_app
+### Flutter project with platform-specific native language
+The native platform Android supports two languages Java and Kotlin (default). The native platform for iOS supports two languages Objective C and Swift (default). If you don’t specify any language, then default languages are selected codes will be generated
+
+Select native language in Android platform use parameter
+    flutter create --org=com.navoki --android-language=java my_flutter_commands_app
