@@ -10,3 +10,6 @@ To download and update your flutter SDK current branch. You have to upgrade for 
 ### Flutter Packages Get
 This flutter cli command downloads and includes the package used in the flutter project. If the package is already downloaded, it will use offline package stored in flutter SDK.
     flutter packages get
+### Create a new project in Flutter
+Suppose you want to create flutter project name my_flutter_commands_app , by default flutter create projects to support Android and iOS platform. You can add other platforms also more is given about this in topics below then the flutter command would be:
+    flutter create my_flutter_commands_app
