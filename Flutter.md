@@ -13,3 +13,7 @@ This flutter cli command downloads and includes the package used in the flutter 
 ### Create a new project in Flutter
 Suppose you want to create flutter project name my_flutter_commands_app , by default flutter create projects to support Android and iOS platform. You can add other platforms also more is given about this in topics below then the flutter command would be:
     flutter create my_flutter_commands_app
+### New flutter project with custom package name
+Suppose you want to make the package name com.navoki.my_flutter_commands_app , where navoki.com is your organization’s web address. You have to use --org parameter, then cli command would be:
+    flutter create --org=com.navoki  my_flutter_commands_app
+    
