@@ -11,7 +11,6 @@
     stacked create view login
 This command creates all the scaffolding to add a new View into the project:
 
-
 1-Creates a new folder with the View name in lib/ui/views/
 2-Creates the new View and ViewModel files in lib/ui/views/view_name/
 3-Creates the ViewModel tests file in the test/viewmodel_tests/ folder
