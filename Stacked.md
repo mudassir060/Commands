@@ -3,7 +3,6 @@
 ### Update CLI
     stacked update
 
-
 ### Creating a new Stacked App
     stacked create app my_app
 
