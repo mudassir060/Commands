@@ -7,3 +7,4 @@ To know more about these in details type
 ### Flutter Upgrade
 To download and update your flutter SDK current branch. You have to upgrade for each flutter channel, if you switch the channel. Run this flutter command
     flutter upgrade
+### Flutter Packages Get
