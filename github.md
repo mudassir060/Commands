@@ -29,8 +29,10 @@ git remote remove origin
 # Remove the history from 
 rm -rf .git
 
+#  change Git repository
+  git remote set-url origin "_url"
 
-
+  
 # ! [rejected]        master -> master (fetch first)
 error: failed to push some refs to 'git@github.com:zapnaa/abcappp.git'
 git fetch origin main
