@@ -43,3 +43,17 @@ To update all the packages in your project, run the command below.
 ### Build
 To build your app and start using it in production, use that command.
     flutter build target_platform_name --release
+
+### xml http request error in flutter
+use this command
+flutter run -d chrome --web-renderer html --web-browser-flag "--disable-web-security"
+### or
+add this on "--disable-web-security" urder this code 
+      if (headless)
+        ...<String>[
+          '--headless',
+          '--disable-gpu',
+          '--no-sandbox',
+          '--window-size=2400,1800',
+        ],
+flutter_windows_3.13.1-stable\flutter\packages\flutter_tools\lib\src\web\chrome.dart
