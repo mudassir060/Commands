@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Prod",
+            "type": "dart",
+            "request": "launch",
+            "program": "app/lib/main_production.dart",
+            "args": [
+                "--flavor",
+                "production",
+            ],
+        },
+        {
+            "name": "Flutter Staging",
+            "type": "dart",
+            "request": "launch",
+            "program": "app/lib/main_staging.dart",
+            "args": [
+                "--flavor",
+                "staging"
+            ],
+        },
+        {
+            "name": "Flutter Dev",
+            "type": "dart",
+            "request": "launch",
+            "program": "app/lib/main_development.dart",
+            "args": [
+                "--flavor",
+                "development"
+            ],
+        },
+        {
+            "name": "Flutter Web Dev",
+            "type": "dart",
+            "request": "launch",
+            "program": "app/lib/main_development.dart",
+            "args": [
+                "--flavor",
+                "development",
+                "_d",
+                "web-server",
+                "--web-port 8080",
+                "--web-hostname 0.0.0.0"
+            ],
+        },
+        {
+            "name": "Flutter Dev Release",
+            "type": "dart",
+            "request": "launch",
+            "program": "app/lib/main_development.dart",
+            "args": [
+                "--release",
+                "--flavor",
+                "development"
+            ],
+        },
+    ]
+}
