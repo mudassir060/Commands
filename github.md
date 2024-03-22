@@ -42,3 +42,5 @@ error: failed to push some refs to 'git@github.com:zapnaa/abcappp.git'
 ### Update date
     GIT_COMMITTER_DATE="Wed Feb 16 14:00 2011 +0100" git commit --amend
 
+### Bring back any committed code
+    git cherry-pick -e <Commit_ID>
