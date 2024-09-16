@@ -35,6 +35,7 @@
     
 ### ! [rejected] master -> master (fetch first)
 error: failed to push some refs to 'git@github.com:zapnaa/abcappp.git'
+
     git fetch origin main
     git merge origin main
     git push origin main --force
